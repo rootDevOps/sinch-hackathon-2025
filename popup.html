@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario v</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Version v1.0</h1>
+  <form id="formulario">
+    <select name="country" id="country" required>
+        <option value="">Select a country</option>
+    </select>      
+    <input type="text" name="city" placeholder="City" required>
+    <input type="date" name="date" required>
+    <input type="time" name="time" required>
+    <input type="password" id="apiKey" placeholder="Gemini API Key" required>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="mensaje"></div>
+  <button id="reiniciar" style="display:none;">Volver a intentar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
